@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test_Suite]">
+  <listeners>
+    <listener class-name="com.qa.listners.FWListners"/>
+  </listeners>
+  <test thread-count="5" name="Login_Page_Test_01(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tescases.Login_Page_Test_01">
+        <methods>
+          <include name="loginSuperadmin"/>
+        </methods>
+      </class> <!-- Tescases.Login_Page_Test_01 -->
+    </classes>
+  </test> <!-- Login_Page_Test_01(failed) -->
+</suite> <!-- Failed suite [Test_Suite] -->

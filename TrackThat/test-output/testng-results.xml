@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test_Suite" duration-ms="36461" started-at="2019-09-24T13:59:49Z" finished-at="2019-09-24T14:00:26Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Login_Page_Test_01.loginSuperadmin()[pri:0, instance:Tescases.Login_Page_Test_01@1d16f93d]" name="loginSuperadmin" class="Tescases.Login_Page_Test_01"/>
+        <method signature="Hamburger_Test.clickOnHamburger()[pri:0, instance:Tescases.Hamburger_Test@3224f60b]" name="clickOnHamburger" class="Tescases.Hamburger_Test"/>
+        <method signature="Hamburger_Test.logoIsClickable()[pri:0, instance:Tescases.Hamburger_Test@3224f60b]" name="logoIsClickable" class="Tescases.Hamburger_Test"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Login_Page_Test_01" duration-ms="8085" started-at="2019-09-24T13:59:49Z" finished-at="2019-09-24T13:59:57Z">
+      <class name="Tescases.Login_Page_Test_01">
+        <test-method status="PASS" signature="initConfig()[pri:0, instance:Tescases.Login_Page_Test_01@1d16f93d]" name="initConfig" is-config="true" duration-ms="6956" started-at="2019-09-24T13:59:49Z" finished-at="2019-09-24T13:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConfig -->
+        <test-method status="PASS" signature="loginSuperadmin()[pri:0, instance:Tescases.Login_Page_Test_01@1d16f93d]" name="loginSuperadmin" duration-ms="948" started-at="2019-09-24T13:59:56Z" finished-at="2019-09-24T13:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuperadmin -->
+        <test-method status="PASS" signature="cloaseBrowser()[pri:0, instance:Tescases.Login_Page_Test_01@1d16f93d]" name="cloaseBrowser" is-config="true" duration-ms="136" started-at="2019-09-24T13:59:57Z" finished-at="2019-09-24T13:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseBrowser -->
+      </class> <!-- Tescases.Login_Page_Test_01 -->
+    </test> <!-- Login_Page_Test_01 -->
+    <test name="Hamburger_Test" duration-ms="28358" started-at="2019-09-24T13:59:57Z" finished-at="2019-09-24T14:00:26Z">
+      <class name="Tescases.Hamburger_Test">
+        <test-method status="PASS" signature="initConfig()[pri:0, instance:Tescases.Hamburger_Test@3224f60b]" name="initConfig" is-config="true" duration-ms="5726" started-at="2019-09-24T13:59:57Z" finished-at="2019-09-24T14:00:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConfig -->
+        <test-method status="PASS" signature="clickOnHamburger()[pri:0, instance:Tescases.Hamburger_Test@3224f60b]" name="clickOnHamburger" duration-ms="11090" started-at="2019-09-24T14:00:03Z" description="Menu icon is opening &amp; closing " finished-at="2019-09-24T14:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHamburger -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tescases.Hamburger_Test@3224f60b]" name="closeBrowser" is-config="true" duration-ms="81" started-at="2019-09-24T14:00:14Z" finished-at="2019-09-24T14:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initConfig()[pri:0, instance:Tescases.Hamburger_Test@3224f60b]" name="initConfig" is-config="true" duration-ms="5730" started-at="2019-09-24T14:00:14Z" finished-at="2019-09-24T14:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConfig -->
+        <test-method status="PASS" signature="logoIsClickable()[pri:0, instance:Tescases.Hamburger_Test@3224f60b]" name="logoIsClickable" duration-ms="5578" started-at="2019-09-24T14:00:20Z" description="Track_That Logo is clickable" depends-on-methods="Tescases.Hamburger_Test.clickOnHamburger" finished-at="2019-09-24T14:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoIsClickable -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Tescases.Hamburger_Test@3224f60b]" name="closeBrowser" is-config="true" duration-ms="134" started-at="2019-09-24T14:00:26Z" finished-at="2019-09-24T14:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tescases.Hamburger_Test -->
+    </test> <!-- Hamburger_Test -->
+  </suite> <!-- Test_Suite -->
+</testng-results>

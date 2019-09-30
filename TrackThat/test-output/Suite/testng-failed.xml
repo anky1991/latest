@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.lisners.FWListners"/>
+  </listeners>
+  <test thread-count="5" name="Track_That_Login_Test(failed)">
+    <classes>
+      <class name="Tescases.Login_Page_Test_01">
+        <methods>
+          <include name="validateUserIdRequiredText"/>
+          <include name="validatePasswordRequiredText"/>
+          <include name="initConfig"/>
+          <include name="cloaseBrowser"/>
+          <include name="loginSuperadmin"/>
+          <include name="validateEnteringUserCredentials"/>
+        </methods>
+      </class> <!-- Tescases.Login_Page_Test_01 -->
+      <class name="Tescases.Hamburger_Test">
+        <methods>
+          <include name="logoIsClickable"/>
+          <include name="closeBrowser"/>
+          <include name="clickOnHamburger"/>
+          <include name="initConfig"/>
+        </methods>
+      </class> <!-- Tescases.Hamburger_Test -->
+    </classes>
+  </test> <!-- Track_That_Login_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

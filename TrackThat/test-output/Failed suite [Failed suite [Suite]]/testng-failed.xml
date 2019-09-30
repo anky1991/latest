@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <test thread-count="5" name="Test(failed)(failed)(failed)">
+    <classes>
+      <class name="MPLLC.TrackThat._01_Login_Page_Test">
+        <methods>
+          <include name="validateNavigationToTrackThatlSite"/>
+          <include name="validateEnteringUserCredentials"/>
+          <include name="initConfig"/>
+          <include name="validatePasswordRequiredText"/>
+          <include name="validateUserIdRequiredText"/>
+        </methods>
+      </class> <!-- MPLLC.TrackThat._01_Login_Page_Test -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

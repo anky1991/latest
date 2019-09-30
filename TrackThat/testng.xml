@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite" parallel="false"  >
+<groups>
+<run>
+<include name="Regression"/>  
+</run>
+</groups>
+<listeners>
+<listener class-name ="com.qa.listners.FWListners" />
+</listeners>
+
+  <test name="Login_Page_Test_01">
+  <classes>
+  <class name="Tescases.Login_Page_Test_01"/>
+      <!-- <methods>
+       <include name="validateUserIdRequiredText" />
+       <include name="validatePasswordRequiredText" />
+       <include name="validateEnteringUserCredentials" />
+       <include name="loginSuperadmin" />
+      </methods> -->
+   </classes>
+   </test>
+    <test name="Hamburger_Test">
+    <classes>
+    <class name ="Tescases.Hamburger_Test" />
+   <!--<methods>
+       <include name="clickOnHamburger" />
+       <include name= "logoIsClickable" />
+      </methods> -->
+    </classes>
+  </test> <!-- Track_That -->
+</suite> <!-- Suite -->
